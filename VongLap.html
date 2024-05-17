@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+ //Bài 1: Sử dụng vòng lặp để đếm từ 1 đến 100. Khi số là 99, hiển thị hộp thoại thông báo là đã hoàn thành.
+       /* for (i = 1; i < 100 ; i++){
+            document.write('Số lần đếm: ' + i + '<br>');
+            if(i == 99){
+                document.write('Đã hoàn thành');
+            }
+        }*/
+ // Bài 2 : Sử dụng hàm prompt() để lấy thông tin nhiệt độ hiện tại được nhập bởi người truy cập.
+        // Nếu nhiệt độ nhập vào trên 100, yêu cầu người dùng giảm nhiệt độ.
+        // Nếu nhiệt độ dưới 20, yêu cầu người dùng tăng nhiệt độ
+       /* let c = +prompt('Nhập nhiệt độ: ');
+        if (c>=100){
+            alert('Giảm nhiệt độ');
+        }else{
+            alert('Tăng nhiệt độ');
+        }*/
+
+// Bài 3: Hiển thị ra 20 số trong dãy fibonacci đầu tiên.
+
+       /*let a = +prompt('Nhập số mún lấy ra từ dãy Fibonacci: ');
+        let fib = [0,1];
+        for (i = 2; i <= a; i++){
+            fib[i] = fib[i - 1] + fib[i - 2];
+            document.write('Giá trị dãy số fibonacci: ' + fib + '<br>');
+        }*/
+ // cách 2
+ /* let a1 = 1;
+ let a2 = 2;
+ while ( a2 <= 100 ){
+    let x = a1 + a2;
+    a1 = a2;
+    a2 = x ;
+    document.write(a1 + '<br>');
+ }
+  */
+
+//Bài 4: Tìm số đầu tiên trong dãy fibonacci chia hết cho 5
+      /*  let a = +prompt('Nhập số mún lấy ra từ dãy Fibonacci: ');
+         let fib = [0,1];
+         for (i = 2; i <= a; i++){
+             fib[i] = fib[i - 1] + fib[i - 2];
+             if (fib[i] % 5 == 0){
+             document.write(i + ' Giá trị dãy số fibonacci chia hết cho 5: ' + fib + '<br>');
+             }
+         } */
+ //Bài 5: Tính tổng của 20 số đầu tiên trong dãy fibonacci.
+       /* let a = +prompt('Nhập số mún lấy ra từ dãy Fibonacci: ');
+        let fib = [0,1];
+        let s = 0;
+        for (i = 2; i <= a; i++){
+            fib[i] = fib[i-1] + fib[i-2];
+            s += fib[i];
+            document.write('Tổng của các số đã nhập trong fibonacci: ' + s + '<br>');
+        }*/
+
+ //Bài 6: Bài 6: Tính tổng của 30 số chia hết cho 7 đầu tiên trong các số tự nhiên
+       /* let a = +prompt('Tổng sl số tự nhiên: ');
+        let s = 0;
+        for (i = 0; i <= 30; i++){
+            if (i % 7 == 0){
+                s += i;
+                document.write('Tổng: ' + s + '<br>');
+            }
+        } */
+
+//Bài 7: Hãy viết một chương trình in ra các số từ 1 đến 100. Nhưng nếu số chia hết cho 3 thì in ra "Fizz",
+ // 5 thì in ra "Buzz" thay vì in ra số đó.
+ // Và nếu số đó chia hết cho cả 3 và 5 thì in ra chữ "FizzBuzz".
+     /*   let a = +prompt('Nhập số a: ');
+
+        for (i = 1; i <= a; i++){
+            if (i % 3 == 0 && i % 5 !== 0){
+                document.write(i + ' Fizz <br>' );
+            }if (i % 5 == 0 && i % 3 !== 0){
+                document.write( i + ' FizzBuzz <br>');
+            }
+            if (i % 3 == 0 && i % 5 == 0){
+                document.write(i + ' FizzBuzz <br>');
+            }
+
+        }*/
+    let S = +prompt('Nhập số nguyên thứ S: ');
+    let N = +prompt('Nhập số nguyên thứ N: ');
+    for (i = 0; i <= N; i++){
+        for (j){
+
+        }
+
+    }
+
+
+
+
+    </script>
+</body>
+</html>
